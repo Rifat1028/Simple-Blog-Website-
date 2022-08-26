@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="http://tinypic.com?ref=261kfht" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="on_top_button.js"></script>
+    <title>Add post</title>
+  </head>
+  <body>
+
+    <nav>
+        <div class="containerr nav_container">
+           <a href="Home.html" class="nav_logo">BLOG HOME</a>
+            
+           <ul class="nav_items">
+               <li><a href ="about.html">About</a></li>
+               <li><a href="service.html">Services</a></li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="signin.html">Sign in</a></li>
+               <li class="nav_profile ">
+                   <div class="avatar">
+                       <img src="me.jpg" alt="">
+                   </div>
+                   <ul>
+                    <li><a href="manage post.html">Dashboard</a></li>
+                    <li><a href="signin.html">Logout</a></li>
+                   </ul>
+               </li>
+           </ul>
+           <button id="open_nav-btn"><i class="fa fa-bars"></i></button>
+           <button id="close_nav-btn"><i class="fa fa-times"></i></button>
+        </div>
+    </nav>
+
+
+    <div class="section">
+      <div class="form_section">
+        <div class="containerr form_section-container">
+          <h2>Add post</h2>
+          <form action="" enctype="multipart/form-data">
+            <input type="text" placeholder="Title" />
+            <select>
+                <option value="1">Travel</option>
+                <option value="2">Wildlife</option>
+                <option value="3">Food</option>
+                <option value="4">Technology</option>
+            </select>
+
+            <textarea name="" id="" rows="10" placeholder="body"></textarea>
+            <button type="submit" class="btn">Add</button>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bottom_layout">
+        
+
+        <div class="bottom_intro">
+            <div class='intro'>
+                <h4>We are soical</h4>
+                <p>Follow us</p>
+                <a class="down_button" href='https://www.facebook.com'" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="down_button" href='https://twitter.com'" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="down_button" href='https://www.instagram.com'" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="bottom_service_info">
+                <h4>Links</h4>
+                <p href="">ADVERTISERS</p>
+                <p href="">PUBLISHERS</p>
+                <p href="">INFLUENCERS</p>
+                <p href="">AD FORMATS</p>
+            </div>
+            <div class="offer">
+                <h4>Documentation</h4>
+                <p href="">TERMS & CONDITIONS</p>
+                <p href="">PRIVACY POLICY</p>
+                <p href="">CANCELLATION POLICY</p>
+                <p href="">BLOG</p>
+            </div>
+            <div class="support">
+                <h4>Support</h4>
+                <p href="">FAQ</p>
+                <p href="">MEDIA KIT</p>
+                <p href="">CONTACT US</p>
+            </div>
+        </div>
+
+        
+    </div>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+    <script src="on_top_button.js"></script>
+  </body>
+</html>

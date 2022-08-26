@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="http://tinypic.com?ref=261kfht" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="on_top_button.js"></script>
+    <title>Manage</title>
+  </head>
+  <body>
+    <nav>
+      <div class="containerr nav_container">
+        <a href="Home.html" class="nav_logo">BLOG HOME</a>
+
+        <ul class="nav_items">
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="nav_profile">
+            <div class="avatar">
+              <img src="me.jpg" alt="" />
+            </div>
+            <ul>
+              <li><a href="manage post.html">Dashboard</a></li>
+              <li><a href="signin.html">Logout</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="signin.html">Sign in</a></li>
+        </ul>
+        <button id="open_nav-btn"><i class="fa fa-bars"></i></button>
+        <button id="close_nav-btn"><i class="fa fa-times"></i></button>
+      </div>
+    </nav>
+
+    <div class="section">
+      <div class="dashboard">
+        <div class="containerr dashboard_container">
+          <aside>
+            <ul>
+              <li>
+                <a href="add post.html">
+                  <i class="fa fa-pencil"></i>
+                  <h5>Add Post</h5>
+                </a>
+              </li>
+              <li>
+                <a href="edit post.html" class="">
+                  <i class="fa fa-list"></i>
+                  <h5>Edit Post</h5>
+                </a>
+              </li>
+              <li>
+                <a href="add user.html">
+                  <i class="fa fa-user"></i>
+                  <h5>Add User</h5>
+                </a>
+              </li>
+              <li>
+                <a href="edit user.html" class="active">
+                  <i class="fa fa-users"></i>
+                  <h5>Edit Post</h5>
+                </a>
+              </li>
+            </ul>
+          </aside>
+          <main>
+            <h2>Manage Users</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Username</th>
+                  <th>Admin</th>
+                  <th>Edit</th>
+                  <th>Delete</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Alex Hales</td>
+                  <td>Alex10</td>
+                  <td>No</td>
+                  <td><a href="edit user.html" class="btn mbtn">Edit</a></td>
+                  <td>
+                    <a href="edit user.html" class="btn mbtn danger">Delete</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Prince Vegeta</td>
+                  <td>Prince</td>
+                  <td>Yes</td>
+                  <td><a href="edit user.html" class="btn mbtn">Edit</a></td>
+                  <td>
+                    <a href="edit user.html" class="btn mbtn danger">Delete</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top">
+      <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+    <script src="on_top_button.js"></script>
+  </body>
+</html>
