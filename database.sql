@@ -6,7 +6,7 @@ SET time_zone = "+00:00";
 
 
 CREATE TABLE `info` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
   `name` VARCHAR(255) NOT NULL,
   `email` VARCHAR(255) NOT NULL,
   `username` VARCHAR(255) NOT NULL,
@@ -21,9 +21,4 @@ INSERT INTO `info` (`id`, `username`, `name`, `email`, `password`) VALUES
 (2, 'abc','jonh', 'admin@localhost.com', '\\rn'),
 
 
-ALTER TABLE `info`
-  ADD PRIMARY KEY (`id`);
 
-ALTER TABLE `info`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-COMMIT;
