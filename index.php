@@ -46,7 +46,7 @@ if(isset($_POST['name'])){
           }
         } 
 
-     $sql = "INSERT INTO profile.info ( `name`, `username`, `email`, `password`, `date`)
+     $sql = "INSERT INTO info ( `name`, `username`, `email`, `password`, `date`)
       VALUES ( '$name','$username' '$email', '$password', current_timestamp());";
 
      
